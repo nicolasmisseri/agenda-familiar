@@ -48,6 +48,9 @@ function botonAgregarSalario(divIntegrante, index) {
   let $botonSalario = document.createElement("button");
   divIntegrante.appendChild($botonSalario);
   $botonSalario.textContent = "Agregar Salario";
+  $botonSalario.type = "button";
+  $botonSalario.className = "btn btn-success m-2";
+
   $botonSalario.onclick = () => {
     crearLabelSalario(divIntegrante, index);
     crearInputSalario(divIntegrante, index);
@@ -160,6 +163,7 @@ function CalcularMenorMayorPromedioYMostrar() {
 const $botonCalcular = document.createElement("button");
 $botonCalcular.innerText = "Calcular";
 $botonCalcular.type = "button";
+$botonCalcular.className = "btn btn-primary m-2";
 div.appendChild($botonCalcular);
 
 $botonCalcular.onclick = () => {
@@ -173,6 +177,7 @@ $botonCalcular.onclick = () => {
 const $botonResetear = document.createElement("button");
 $botonResetear.innerText = "Resetear";
 $botonResetear.type = "reset";
+$botonResetear.className = "btn btn-primary m-2";
 div.appendChild($botonResetear);
 
 /*
