@@ -1,4 +1,4 @@
-# agenda-familiar
+# Agenda Familiar
 
 App para cargar y promediar los datos de tu familia.
 
