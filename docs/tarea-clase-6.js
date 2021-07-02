@@ -66,6 +66,7 @@ function botonAgregarSalario(divIntegrante, index) {
 function crearIntegrante(index) {
   let divIntegrante = document.createElement("div");
   divIntegrante.id = `integrante${index}`;
+  divIntegrante.className = "alert alert-primary";
   div.appendChild(divIntegrante);
 
   crearLabelEdad(divIntegrante, index);
